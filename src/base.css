@@ -1,0 +1,32 @@
+/* IGNORE - DO NOT TOUCH THE STYLES BELOW */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,800');
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+}
+
+.column {
+  flex-grow: 1;
+  width: 50%;
+  padding: 10px;
+  border-right: 1px solid #cfcfcf;
+  text-align: center;
+}
+
+.column:last-child {
+  border-right: none;
+}
+
+.fa {
+  font-size: 20px;
+}
+
+.end-result {
+  border: 1px solid #cfcfcf;
+}
