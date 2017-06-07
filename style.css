@@ -2,9 +2,174 @@
 
 /* --- YOUR CODE STARTS HERE --- */
 
+/* environment styling */
 
+#border {
+	display: inline-block;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D0D3D4;
+	width: 357px;
+}
 
+/* header */
 
+.hfer {
+	background-color: #FAFAFA;
+	border-bottom: #EDEDED solid 2px;
+	height: 40px;
+}
 
+.name, .fa {
+	color: #000;
+	display: inline-block;
+}
+
+.fa-angle-left {
+	display: block;
+	float: left;
+	color: #49494a;
+	margin: 7px 0 0 10px;
+	font-size: 30px;
+	vertical-align: middle;
+}
+
+.fa-repeat {
+	display: block;
+	float: right;
+	color: #49494a;
+	margin: 13px 10px 0 0;
+	vertical-align: middle;
+	transform: rotate(-20deg);
+}
+
+/* poster info */
+
+.poster {
+	width: 100%;
+	height: 51px;
+}
+
+.accountinfo {
+	display: inline-block;
+	text-align: left;
+	margin: 5px 0 0 10px;
+}
+
+.fa-angle-right {
+	display: inline-block;
+	margin: 32px 0 0 2px;
+}
+
+.fa-ellipsis-h {
+	margin: 25px 13px 0 0;
+}
+
+/* actions */
+
+.fa-heart-o, .fa-comment-o, .fa-paper-plane-o {
+	display: inline-block;
+	margin: 0 16px 0 0;
+}
+
+.fa-bookmark-o {
+	display: inline-block;
+	margin: 0 14px;
+}
+
+.actions {
+	margin: 10px 0 0 12px;
+}
+
+/* caption */
+
+.caption {
+	width: 100%;
+}
+
+.likes {
+	margin: 53px 0 0 12px;
+	text-align: left;
+	font-size: 12.5px;
+	line-height: 3px;
+}
+
+.caption_text {
+	display: inline-block;
+	text-align: left;
+	margin-top: 9px;
+	margin-left: 12px;
+}
+
+.text {
+	display: inline-block;
+	margin: 0 0 0 0;
+	font-size:12.5px;
+}
+
+.lineheight {
+	position:relative;
+	top:-2px;
+}
+
+.down {
+	z-index:0;
+	position: relative;
+	bottom:5px;
+}
+
+/* toolbar */
+
+.toolbar {
+	height: 33px;
+	position: relative;
+	top: -11px;
+	background-color: #FAFAFA;
+	z-index: 1;
+	border-top: #EDEDED solid 2px;
+}
+
+.icons {
+	vertical-align: middle;
+}
+
+.fa-home, .fa-search, .fa-plus-square-o, .heart2, .fa-user-o {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px 22px;
+	font-size:23px;
+}
+
+/* fonts */
+
+.small {
+	font-size: 12.5px;
+	line-height: 3px;
+}
+
+.xsmall {
+	font-size: 11px;
+	line-height:3px;
+	letter-spacing: -0.5px;
+}
+
+.bold {
+	-webkit-text-stroke-width: 1px;
+}
+
+.blue {
+	color: #355c86;
+}
+
+/* alignments */
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
 
 /* --- YOUR CODE ENDS HERE --- */
